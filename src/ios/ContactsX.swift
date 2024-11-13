@@ -349,6 +349,8 @@ import PhoneNumberKit
                         completionHandler(false)
                     }
                 }
+                default:
+                    fatalError()    
     }
 
     func returnError(error: ErrorCodes, message: String = "") {
